@@ -1,11 +1,11 @@
-# 중간 프로젝트
+<h1>중간 프로젝트</h1>
 
-#### 수집하고자 하는 데이터
+<h4>수집하고자 하는 데이터</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;인스타그램에서 특정 해시태그의 <strong>인기 게시물</strong>에 관한 정보를 수집하고자 한다.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;인스타그램에서 해시태그를 검색하면 해당 태그가 달린 게시물의 수, 인기 게시물 9개, 최근 게시물, 게시물에 달린 좋아요 수와 댓글 수 등을 얻을 수 있다. 또, 개별 계정 페이지에서는 계정에 있는 게시물의 수, 팔로워 수, 팔로우 수 등에 대한 정보를 얻을 수 있다.
 </p>
 <br>
-#### 활용 가능성
+<h4>활용 가능성</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>비즈니스 계정 사용자들에게...</strong></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;인스타그램을 이용하여 마켓팅을 하는 경우를 흔히 볼 수 있다. 인스타그램을 통한 마켓팅은 팔로워 수를 늘리는 것이 중요하고, 팔로워 수를 늘리기 위해서는 해시태그를 잘 활용하는 것이 중요하다고 한다.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;인터넷에 검색해보면 인스타 팔로워를 늘리기 위한 해시태그 모음에 관한 포스트들을 많이 볼 수 있다. 많은 사람들이 관심있어 하는 주제임을 알 수 있다. 인기 게시글에 달린 해시태그들을 모아서 인기 해시태그를 알아낼 수 있을 것이다.
@@ -17,7 +17,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;"트위터에서 인기 있는 글들이 인스타그램으로 옮겨가고 마지막으로 페이스북으로 넘어간다"는 말을 들은 적이 있다. 이러한 경향이 정말로 존재한다면 팔로워 수를 늘리고 싶어하는 일반 사용자들에게 큰 도움이 될 것이라고 생각한다.(인스타그램에서 정보를 가져오는 것을 해결하면 트위터, 페이스북에서도 인기 게시물에 대한 정보를 수집해야겠다.)
 </p>
 <br>
-#### 환경구축
+<h4>환경구축</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>R과 phantomjs</strong></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;인스타그램에서 정보가 있는 html 태그를 분석하고 rvest를 이용하여 정보를 가져오려고 했다. 하지만, rvest를 이용하여 가져오는 html코드와 실제 페이지에서 보여지는 html코드가 달랐다.
 </p>
@@ -52,7 +52,7 @@ Undefined error in RCurl call.Error in queryRD(paste0(serverURL, "/session"), "P
 "Undefined error in RCurl call.Error in queryRD(paste0(serverURL, "/session"), "POST", qdata = toJSON(serverOpts)) :"라는 에러 메시지가 발생하였고 이에 대한 해결책은 <a href="https://stackoverrun.com/ko/q/12260489">여기</a>에서 찾았다. 환경변수 문제였던 것 같다.
 </p>
 <br>
-#### 구현 진행 상황
+<h4>구현 진행 상황</h4>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>특정해시태그의 인기 게시글에 달린 해시태그 수집</strong></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;#맛스타그램의 총 게시물 수, 인기게시글의 좋아요 수 평균, 인기게시글에 달린 태그들을 수집하였다.(참고한 사이트: <a href="https://seongjaemoon.github.io/python/2018/05/16/python-course6.html">https://seongjaemoon.github.io/python/2018/05/16/python-course6.html</a>)
 </p>
