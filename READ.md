@@ -56,5 +56,5 @@ Undefined error in RCurl call.Error in queryRD(paste0(serverURL, "/session"), "P
 <p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>특정해시태그의 인기 게시글에 달린 해시태그 수집</strong></p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;#맛스타그램의 총 게시물 수, 인기게시글의 좋아요 수 평균, 인기게시글에 달린 태그들을 수집하였다.(참고한 사이트: <a href="https://seongjaemoon.github.io/python/2018/05/16/python-course6.html">https://seongjaemoon.github.io/python/2018/05/16/python-course6.html</a>)
 </p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;댓글 수, 개별 계정 페이지에서 정보 가져오기, 코드 자동 실행, 트위터나 페이스북에서도 정보 가져오기 등을 더 진행해야 한다.
+<p>&nbsp;&nbsp;&nbsp;&nbsp;댓글 수, 개별 계정 페이지에서 정보 가져오기, 한글 인코딩 문제, 드 자동 실행, 트위터나 페이스북에서도 정보 가져오기 등을 더 진행해야 한다.
 </p>
